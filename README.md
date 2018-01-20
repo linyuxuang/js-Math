@@ -62,4 +62,52 @@ random() 获取随机数
 
 			    这样可以随机取出  a-f 之间的随机数
 			console.log(text)
-                    
+                    
+
+
+
+
+其他方法 
+
+                     
+		Math.abs(num)   返回num绝对值
+		
+		Math.exp(num)   返回Math.E的num次幂
+		
+		Math.log(num)    返回num的自然数
+		
+		Math.pow(num)  返回num的power次幂
+		
+		Math.sqrt(num)  返回num的平方根
+		
+		Math.acos(x)   返回x的反余弦值 
+		
+		Math.asin(x)  返回x的反 正弦值
+		
+		Math.atan(x)  返回x的反 正切值
+		
+		Math.atan2(y,x)  返回y/x 的反 正切值
+		
+		Math.cos(x)  返回x的余弦值
+		
+		Math.sin(x) 返回x的正弦值
+		
+		Math.tan(x)  返回x的正切值
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		   
+		    
+		    
