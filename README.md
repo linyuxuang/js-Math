@@ -42,24 +42,24 @@ max()  获取最大值   min() 获取最小值
             
 random() 获取随机数
 
-           公式：-》  值=Math.floor(Math.random() * 可能值的总数 + 第一个可能的值);
+		   公式：-》  值=Math.floor(Math.random() * 可能值的总数 + 第一个可能的值);
 
-            例子 ： 比如得到一个20之间的随机数
-                    var num=Math.floor(Math.random()*20+1);
-               
-               
-                    比如得到一个10与2之间的随机数   就得这样写
-                    var num=Math.floor(Math.random() * 9+2 );
-                   
-              再看下面这个  取随机 字母 例子：
-                   
-                  function setText(max_s,min_s){
-                    var sun=max_s-min_s+1;
-                    return Math.floor(Math.random()*sun+min_s)
-                    }	
-		var arr=["a","b","c","d","e","f"];
-		var text=arr[setText(0,arr.length-1)];
-                    
-                    这样可以随机取出  a-f 之间的随机数
-		console.log(text)
+		    例子 ： 比如得到一个20之间的随机数
+			    var num=Math.floor(Math.random()*20+1);
+
+
+			    比如得到一个10与2之间的随机数   就得这样写
+			    var num=Math.floor(Math.random() * 9+2 );
+
+		      再看下面这个  取随机 字母 例子：
+
+			  function setText(max_s,min_s){
+			    var sun=max_s-min_s+1;
+			    return Math.floor(Math.random()*sun+min_s)
+			    }	
+			var arr=["a","b","c","d","e","f"];
+			var text=arr[setText(0,arr.length-1)];
+
+			    这样可以随机取出  a-f 之间的随机数
+			console.log(text)
                     
